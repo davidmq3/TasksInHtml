@@ -10,9 +10,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TODOHtml", "TODOHtml", "{D6
 		style.css = style.css
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{BBC871ED-3E11-4D8A-9C64-78A5901C9D33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{F30DD5FF-12DA-44ED-A00B-27470F3EAB2C}"
+	ProjectSection(SolutionItems) = preProject
+		push.yml = push.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBC871ED-3E11-4D8A-9C64-78A5901C9D33} = {D620BE60-DA10-4C52-B4CC-7086223264DB}
+		{F30DD5FF-12DA-44ED-A00B-27470F3EAB2C} = {BBC871ED-3E11-4D8A-9C64-78A5901C9D33}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F54B2684-405C-4CFB-ADDE-97B79D42A5AD}
